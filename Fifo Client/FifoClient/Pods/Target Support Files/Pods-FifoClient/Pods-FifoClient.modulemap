@@ -1,0 +1,6 @@
+framework module Pods_FifoClient {
+  umbrella header "Pods-FifoClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
