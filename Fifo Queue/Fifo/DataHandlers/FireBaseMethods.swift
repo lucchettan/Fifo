@@ -5,20 +5,11 @@
 //  Created by Nicolas Lucchetta on 12/05/2020.
 //  Copyright © 2020 GueTeam. All rights reserved.
 //
-////
-//  FireBaseMethods.swift
-//  Fifo
-//
-//  Created by Nicolas Lucchetta on 12/05/2020.
-//  Copyright © 2020 GueTeam. All rights reserved.
-//
-//
+
 import Foundation
 import Firebase
 import FirebaseFirestore
 import UIKit
-
-
 
 /* To load the data on a view, add :
  if you need to load your own ticket for example ->
@@ -42,7 +33,6 @@ struct FireBaseMethods {
     /* Instanciate temporary variables for the ticket attributes. */
         var ticketID = ""
         var queueName = ""
-
     /* Call the database for the collection "queue" and check the one with that match with the queue ID we send */        fireStoreDB.collection("Ticket").whereField("token", isEqualTo: token).addSnapshotListener { (snapshot, error) in
             if error != nil {
                 print(error?.localizedDescription)
@@ -54,7 +44,7 @@ struct FireBaseMethods {
                         if let documentid = document.documentID as? String {
                             ticketID  = documentid
                         }
-                        if let QueueName = document.get("QueueName") as? String {
+                        if let QueueName = document.get("queueName") as? String {
                             queueName = QueueName
                         }
                         /* Once we have all of his elements, we create a new Ticket object and add it to the array. */
@@ -87,7 +77,7 @@ struct FireBaseMethods {
                         if let documentid = document.documentID as? String {
                             ticketID  = documentid
                         }
-                        if let QueueName = document.get("QueueName") as? String {
+                        if let QueueName = document.get("queueName") as? String {
                             queueName = QueueName
                         }
                         /* Once we have all of his elements, we create a new Ticket object and add it to the array. */
@@ -98,7 +88,7 @@ struct FireBaseMethods {
                         var email : String = ""
                             
                         /* Call the database for the collection "post" and check for the results in the completion */
-                        fireStoreDB.collection("Queue").whereField("name", isEqualTo: queueName).addSnapshotListener { (snapshot, error) in
+                        fireStoreDB.collection("Queue").whereField("queueName", isEqualTo: queueName).addSnapshotListener { (snapshot, error) in
                             if error != nil {
                                 print(error?.localizedDescription)
                             } else {
@@ -109,7 +99,7 @@ struct FireBaseMethods {
                                         if let documentid = document.documentID as? String {
                                             queueID  = documentid
                                         }
-                                        if let Name = document.get("name") as? String {
+                                        if let Name = document.get("queueName") as? String {
                                             name = Name
                                         }
                                         if let Email = document.get("email") as? String {
@@ -123,7 +113,7 @@ struct FireBaseMethods {
                                         var ticketsToAdd = [Ticket]()
                                         
                                         /*  And start fulfiling it of Tickets. */
-                                        fireStoreDB.collection("Ticket").whereField("QueueName", isEqualTo: queueName).addSnapshotListener{ (snapshot, error) in
+                                        fireStoreDB.collection("Ticket").whereField("queueName", isEqualTo: queueName).addSnapshotListener{ (snapshot, error) in
                                             if snapshot?.isEmpty != true && snapshot != nil {
                                                 /* For each document found in the collection we set the temporary variable with the attribute we need from the document. */
                                                 for document in snapshot!.documents {
@@ -166,7 +156,7 @@ struct FireBaseMethods {
             var email : String = ""
         
         /* Call the database for the collection "post" and check for the results in the completion */
-           fireStoreDB.collection("queue").whereField("name", isEqualTo: queueName).addSnapshotListener { (snapshot, error) in
+           fireStoreDB.collection("queue").whereField("queueName", isEqualTo: queueName).addSnapshotListener { (snapshot, error) in
                 if error != nil {
                     print(error?.localizedDescription)
                 } else {
@@ -177,7 +167,7 @@ struct FireBaseMethods {
                             if let documentid = document.documentID as? String {
                                 queueID  = documentid
                             }
-                            if let Name = document.get("name") as? String {
+                            if let Name = document.get("queueName") as? String {
                                 name = Name
                             }
                             if let Email = document.get("email") as? String {
@@ -191,7 +181,7 @@ struct FireBaseMethods {
                             var ticketsToAdd = [Ticket]()
                             
                             /*  And start fulfiling it of Tickets. */
-                            fireStoreDB.collection("Ticket").whereField("QueueName", isEqualTo: queueName).addSnapshotListener{ (snapshot, error) in
+                            fireStoreDB.collection("Ticket").whereField("queueName", isEqualTo: queueName).addSnapshotListener{ (snapshot, error) in
                                 if snapshot?.isEmpty != true && snapshot != nil {
                                     /* For each document found in the collection we set the temporary variable with the attribute we need from the document. */
                                     for document in snapshot!.documents {
