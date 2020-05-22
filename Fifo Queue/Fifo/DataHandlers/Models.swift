@@ -11,7 +11,7 @@ import Foundation
 struct Queue: Identifiable {
     var id =  UUID()      // This ID is created inside the app to allow th object be used in a List
     var queueID : String  // This ID will be the one saved in the FireBaseDatabase
-    var name : String     // This will be the name of the list found in the database
+    var queueName : String     // This will be the name of the list found in the database
     var email: String
     var tickets : [Ticket]?
 }

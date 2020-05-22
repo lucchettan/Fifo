@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378C2014247834BB00C32E4F /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C2008247834BA00C32E4F /* QueueView.swift */; };
+		378C2016247834BB00C32E4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C200A247834BA00C32E4F /* HomeView.swift */; };
+		378C2017247834BB00C32E4F /* ShowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C200B247834BA00C32E4F /* ShowList.swift */; };
 		3799491F2469875100742352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799491E2469875100742352 /* AppDelegate.swift */; };
 		379949212469875100742352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379949202469875100742352 /* SceneDelegate.swift */; };
-		379949232469875100742352 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379949222469875100742352 /* ContentView.swift */; };
 		379949252469875300742352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379949242469875300742352 /* Assets.xcassets */; };
 		379949282469875300742352 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379949272469875300742352 /* Preview Assets.xcassets */; };
 		3799492B2469875300742352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379949292469875300742352 /* LaunchScreen.storyboard */; };
@@ -20,10 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		378C2008247834BA00C32E4F /* QueueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		378C200A247834BA00C32E4F /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		378C200B247834BA00C32E4F /* ShowList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowList.swift; sourceTree = "<group>"; };
 		3799491B2469875100742352 /* Fifo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fifo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3799491E2469875100742352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		379949202469875100742352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		379949222469875100742352 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		379949242469875300742352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379949272469875300742352 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3799492A2469875300742352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,7 +106,9 @@
 		37994934246A939200742352 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				379949222469875100742352 /* ContentView.swift */,
+				378C200A247834BA00C32E4F /* HomeView.swift */,
+				378C2008247834BA00C32E4F /* QueueView.swift */,
+				378C200B247834BA00C32E4F /* ShowList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,9 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3799491F2469875100742352 /* AppDelegate.swift in Sources */,
+				378C2017247834BB00C32E4F /* ShowList.swift in Sources */,
 				37994937246A93C800742352 /* FireBaseMethods.swift in Sources */,
 				379949212469875100742352 /* SceneDelegate.swift in Sources */,
-				379949232469875100742352 /* ContentView.swift in Sources */,
+				378C2016247834BB00C32E4F /* HomeView.swift in Sources */,
+				378C2014247834BB00C32E4F /* QueueView.swift in Sources */,
 				37994939246A93F400742352 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
