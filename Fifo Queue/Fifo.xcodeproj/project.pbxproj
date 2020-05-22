@@ -16,6 +16,20 @@
 		379949332469B96100742352 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 379949322469B96100742352 /* GoogleService-Info.plist */; };
 		37994937246A93C800742352 /* FireBaseMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37994936246A93C800742352 /* FireBaseMethods.swift */; };
 		37994939246A93F400742352 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37994938246A93F400742352 /* Models.swift */; };
+		68101FE22477E4AE0073432A /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68101FE12477E4AE0073432A /* ViewRouter.swift */; };
+		68101FE42477E4F00073432A /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68101FE32477E4F00073432A /* MotherView.swift */; };
+		6836BBEA2475646400376F54 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6836BBE92475646400376F54 /* AddView.swift */; };
+		6836BBEC2475646F00376F54 /* QRTokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6836BBEB2475646F00376F54 /* QRTokenView.swift */; };
+		6836BBEE2475647800376F54 /* OfflineAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6836BBED2475647800376F54 /* OfflineAddView.swift */; };
+		68C2B3E424758B290000D12C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3DF24758B290000D12C /* TabBarView.swift */; };
+		68C2B3E524758B290000D12C /* HostLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3E024758B290000D12C /* HostLogin.swift */; };
+		68C2B3E624758B290000D12C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3E124758B290000D12C /* ProfileView.swift */; };
+		68C2B3E724758B290000D12C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3E224758B290000D12C /* HomeView.swift */; };
+		68C2B3E824758B290000D12C /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3E324758B290000D12C /* StartView.swift */; };
+		68C2B3EC24758B670000D12C /* HostSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3E924758B670000D12C /* HostSignup.swift */; };
+		68C2B3ED24758B670000D12C /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3EA24758B670000D12C /* ListRow.swift */; };
+		68C2B3EE24758B670000D12C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3EB24758B670000D12C /* ListView.swift */; };
+		68C2B3F024758E750000D12C /* SignupDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2B3EF24758E750000D12C /* SignupDoneView.swift */; };
 		76DD4AA9259696AB00C046A2 /* Pods_Fifo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B01E90EB6E6B2AB891F0ED1 /* Pods_Fifo.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +46,20 @@
 		37994936246A93C800742352 /* FireBaseMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseMethods.swift; sourceTree = "<group>"; };
 		37994938246A93F400742352 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		62D762EC62969FC20E7A0DC3 /* Pods-Fifo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fifo.release.xcconfig"; path = "Target Support Files/Pods-Fifo/Pods-Fifo.release.xcconfig"; sourceTree = "<group>"; };
+		68101FE12477E4AE0073432A /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		68101FE32477E4F00073432A /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		6836BBE92475646400376F54 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		6836BBEB2475646F00376F54 /* QRTokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRTokenView.swift; sourceTree = "<group>"; };
+		6836BBED2475647800376F54 /* OfflineAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineAddView.swift; sourceTree = "<group>"; };
+		68C2B3DF24758B290000D12C /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		68C2B3E024758B290000D12C /* HostLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostLogin.swift; sourceTree = "<group>"; };
+		68C2B3E124758B290000D12C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		68C2B3E224758B290000D12C /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		68C2B3E324758B290000D12C /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		68C2B3E924758B670000D12C /* HostSignup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostSignup.swift; sourceTree = "<group>"; };
+		68C2B3EA24758B670000D12C /* ListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		68C2B3EB24758B670000D12C /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		68C2B3EF24758E750000D12C /* SignupDoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupDoneView.swift; sourceTree = "<group>"; };
 		6B01E90EB6E6B2AB891F0ED1 /* Pods_Fifo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fifo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC56D4FB4FF41F08105A58A /* Pods-Fifo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fifo.debug.xcconfig"; path = "Target Support Files/Pods-Fifo/Pods-Fifo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,7 +130,21 @@
 		37994934246A939200742352 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				68C2B3E924758B670000D12C /* HostSignup.swift */,
+				68C2B3E024758B290000D12C /* HostLogin.swift */,
+				68C2B3EA24758B670000D12C /* ListRow.swift */,
+				68C2B3EB24758B670000D12C /* ListView.swift */,
 				379949222469875100742352 /* ContentView.swift */,
+				68C2B3E224758B290000D12C /* HomeView.swift */,
+				68101FE32477E4F00073432A /* MotherView.swift */,
+				68C2B3E124758B290000D12C /* ProfileView.swift */,
+				68C2B3E324758B290000D12C /* StartView.swift */,
+				68101FE12477E4AE0073432A /* ViewRouter.swift */,
+				68C2B3DF24758B290000D12C /* TabBarView.swift */,
+				6836BBE92475646400376F54 /* AddView.swift */,
+				6836BBEB2475646F00376F54 /* QRTokenView.swift */,
+				6836BBED2475647800376F54 /* OfflineAddView.swift */,
+				68C2B3EF24758E750000D12C /* SignupDoneView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,11 +282,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C2B3EE24758B670000D12C /* ListView.swift in Sources */,
+				68C2B3E424758B290000D12C /* TabBarView.swift in Sources */,
+				6836BBEA2475646400376F54 /* AddView.swift in Sources */,
 				3799491F2469875100742352 /* AppDelegate.swift in Sources */,
+				68C2B3F024758E750000D12C /* SignupDoneView.swift in Sources */,
 				37994937246A93C800742352 /* FireBaseMethods.swift in Sources */,
+				68C2B3E824758B290000D12C /* StartView.swift in Sources */,
 				379949212469875100742352 /* SceneDelegate.swift in Sources */,
+				68C2B3E524758B290000D12C /* HostLogin.swift in Sources */,
+				68101FE22477E4AE0073432A /* ViewRouter.swift in Sources */,
+				6836BBEE2475647800376F54 /* OfflineAddView.swift in Sources */,
 				379949232469875100742352 /* ContentView.swift in Sources */,
+				68C2B3E724758B290000D12C /* HomeView.swift in Sources */,
+				68C2B3E624758B290000D12C /* ProfileView.swift in Sources */,
+				6836BBEC2475646F00376F54 /* QRTokenView.swift in Sources */,
 				37994939246A93F400742352 /* Models.swift in Sources */,
+				68C2B3EC24758B670000D12C /* HostSignup.swift in Sources */,
+				68101FE42477E4F00073432A /* MotherView.swift in Sources */,
+				68C2B3ED24758B670000D12C /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
